@@ -291,7 +291,7 @@ int main() {
     // int a{3};
     // int b{2};
     // std::cout << "Type of result: " << typeid(a / b).name() << '\n';
-    // std::cout << "Value of result: " << a / b << '\n';
+    // std::cout << "Value of result: " <<static_cast<double> (a) / b << '\n';
 
     //</> 19
     //=====================
@@ -306,12 +306,12 @@ int main() {
     //</> 20-1
     //=====================
     // // ask user for their age
-    // std::cout << "Enter your age: ";
+     std::cout << "Enter your age: ";
     // // init variable to hold user input
-    // unsigned short age{};
+     unsigned short age{};
     // // store input in variable age
-    // std::cin >> age;
-    // std::cout << "Your age is " << age << '\n';
+     std::cin >> age;
+     std::cout << "Your age is " << age << '\n';
 
     //</> 20-2
     //=====================
