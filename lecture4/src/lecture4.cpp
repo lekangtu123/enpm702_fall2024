@@ -113,10 +113,15 @@ int main() {
 
     //</> 9
     //=====================
-    // std::string quote{"Just a flesh wound!"};
-    // /*
-    //     write a for loop to print each character of the string
-    // */
+    //std::string quote{"Just a flesh wound!"};
+    //for (size_t i=0; i < quote.length(); i++){
+    //    std:: cout << quote[i] << ' ';
+    //}
+    //std::cout << '\n';
+    //std::cout << quote << '\n';
+   
+     
+     
 
     //</> 10
     //=====================
@@ -133,7 +138,7 @@ int main() {
     // for (auto it{greeting.begin()};
     //      it != greeting.end();
     //      ++it) {
-    //     std::cout << *it << '\n';
+    //    std::cout << *it << '\n';
     // }
 
     //</> 12
@@ -338,9 +343,9 @@ int main() {
 
     //</> 24
     //=====================
-    // std::string greeting{"Hello"};
-    // auto it = greeting.end();
-    // std::cout << *it << '\n';
+     std::string greeting{"Hello"};
+     auto it = greeting.end();
+     std::cout << *(--it) << '\n';
 
     //</> 25
     //=====================
