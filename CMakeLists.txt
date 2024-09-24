@@ -1,19 +1,13 @@
 cmake_minimum_required(VERSION 3.20.0)
 project(lecture4 VERSION 0.1.0)
-<<<<<<< HEAD
-=======
 
->>>>>>> 4d1821175dc9cba4c80ee88ccaa82293469fc452
 
 # Compilation flags
 add_compile_options(-Wall)
 
 # Add executable
 add_executable(lecture4 lecture4/src/lecture4.cpp)
-<<<<<<< HEAD
-=======
 
->>>>>>> 4d1821175dc9cba4c80ee88ccaa82293469fc452
 
 # add_custom_command(TARGET lecture3 POST_BUILD
 #     COMMAND ./lecture3 | c++filt -t
@@ -28,40 +22,9 @@ add_executable(lecture4 lecture4/src/lecture4.cpp)
 #     WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
 # )
 
-<<<<<<< HEAD
-#add_custom_command(TARGET lecture3 POST_BUILD
-#    COMMAND valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./lecture3
-#    WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
-#    COMMENT "Running Valgrind after building lecture3"
-#    VERBATIM
-#)
-
-
-#add_custom_target(run_valgrind ALL
-#    COMMAND valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./lecture3
-#    DEPENDS lecture3
-#    WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
-#)
-=======
 # add_custom_command(TARGET lecture3 POST_BUILD
 #     COMMAND valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./lecture3
 #     WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
 #     COMMENT "Running Valgrind after building lecture3"
 #     VERBATIM
 # )
-
-
-# add_custom_target(run_valgrind ALL
-#     COMMAND valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./lecture3
-#     DEPENDS lecture3
-#     WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
-# )
->>>>>>> 4d1821175dc9cba4c80ee88ccaa82293469fc452
-
-
-# Set C++ standard to C++17
-set_property(TARGET lecture4 PROPERTY CXX_STANDARD 17)
-<<<<<<< HEAD
-=======
-
->>>>>>> 4d1821175dc9cba4c80ee88ccaa82293469fc452
