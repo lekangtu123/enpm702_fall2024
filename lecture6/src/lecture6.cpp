@@ -138,8 +138,8 @@ int main() {
 
     //</> 11
     //=====================
-    // auto u = std::make_unique<int>(10);
-    // display(u);
+     auto u = std::make_unique<int>(10);
+     display(u);
 
     //</> 12
     //=====================
