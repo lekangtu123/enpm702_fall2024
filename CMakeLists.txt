@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.20.0)
-project(lecture6 VERSION 0.1.0)
+project(lecture7 VERSION 0.1.0)
 
-#include_directories(lecture5/include)
+include_directories(lecture7/include)
 # Compilation flags
 add_compile_options(-Wall)
 
 # Add executable
-add_executable(lecture6 lecture6/src/lecture6.cpp)
+add_executable(lecture7 lecture7/src/main.cpp)
 
 
 # add_custom_command(TARGET lecture3 POST_BUILD
