@@ -1,6 +1,16 @@
+#include <iostream>
+ #include <memory>
 
+ #include "date.hpp"
+ 
+int main() {
+    university::Date date;
+    std::cout << sizeof date << '\n';
 
-int main() {}
+    auto u_date = std::make_unique<university::Date>();
+    std::cout << sizeof u_date << '\n';
+    std::cout << sizeof *u_date << '\n';
+}
 
 // //</>--- code #1
 // //=====================
