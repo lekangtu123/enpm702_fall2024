@@ -6,7 +6,9 @@
     "sideBar.background": "#0e110e",
     "list.hoverBackground": "#283228",
   },
-  "cmake.sourceDirectory": "/home/zeid/teaching/fall2024/code/enpm702_fall2024/lecture1",
-  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}"
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+  "editor.mouseWheelZoom": true,
+  "files.autoSave": "afterDelay",
+  "explorer.compactFolders": false
 
 }
