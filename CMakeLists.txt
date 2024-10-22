@@ -1,9 +1,5 @@
 cmake_minimum_required(VERSION 3.20.0)
 project(lecture7 VERSION 0.1.0)
-<<<<<<< HEAD
-=======
-
->>>>>>> 676683cc8d5e2aca96ac33cdc4db42da0f325fcb
 
 include_directories(lecture7/include)
 # Compilation flags
@@ -11,12 +7,9 @@ add_compile_options(-Wall)
 
 include_directories(lecture7/include)
 # Add executable
-<<<<<<< HEAD
-add_executable(lecture7 lecture7/src/main.cpp)
-=======
+
 add_executable(lecture7 lecture7/src/main.cpp
-lecture7 lecture7/src/date.cpp)
->>>>>>> 676683cc8d5e2aca96ac33cdc4db42da0f325fcb
+lecture7/src/date.cpp)
 
 # add_custom_command(TARGET lecture7 POST_BUILD
 #     COMMAND valgrind --show-error-list=yes --leak-check=full --show-leak-kinds=all --track-origins=yes ./lecture7
@@ -24,8 +17,6 @@ lecture7 lecture7/src/date.cpp)
 #     COMMENT "Running Valgrind after building lecture7"
 #     VERBATIM
 # )
-<<<<<<< HEAD
-=======
 
 
 # add_custom_target(run_valgrind ALL
@@ -38,4 +29,4 @@ lecture7 lecture7/src/date.cpp)
 # Set C++ standard to C++17
 set_property(TARGET lecture7 PROPERTY CXX_STANDARD 17)
 
->>>>>>> 676683cc8d5e2aca96ac33cdc4db42da0f325fcb
+

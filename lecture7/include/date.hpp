@@ -17,6 +17,7 @@ namespace university {
                 const;
          int get_days_in_mouth(ushort mouth, ushort year) const;
          static bool is_leap_year(ushort year);
-    }
-    
+         void get_attribute_offsets() const;
+    };
+
 }
