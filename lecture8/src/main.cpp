@@ -1,10 +1,17 @@
 
 
-// class A {
-// };
+class A {
+    int a_;
+};
 
-// class B {
-// };
+class B {
+    public:
+     B(int a, int b) : a_{a}, b_{b} {}
+    
+    private:
+     int b_;
+     A a_;
+};
 
 // int main() {
 //     B b(3, 4);
